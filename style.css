@@ -1,0 +1,59 @@
+body {
+  padding: 30px 30px 0 30px;
+  margin: 0px;
+  background: black;
+}
+
+.AgainWrapper {
+  text-align: center;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Georgia;
+  padding-left: 30px;
+  background: url(new_name_icon.png) left no-repeat;
+  opacity: .7;
+}
+
+a:hover {
+  opacity:1;
+}
+
+p {
+  color: white;
+  font-family: Georgia;
+  font-size: 25px;
+  text-shadow: 0px 2px 0px rgba(0,0,0,.3);
+}
+
+.Alert {
+  padding: 20px 20px 20px 80px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+
+.Bad {
+  background: #cd1e1e;
+  border-top: solid 1px #e66a6a;
+  background: url(icon_bad.png) no-repeat 10px center,  -webkit-linear-gradient(#cd1e1e,#a70f0f);
+  background: url(icon_bad.png) no-repeat 10px center,  -moz-linear-gradient(#cd1e1e,#a70f0f);
+}  
+
+.Good {
+  background: #44900b;
+  border-top: solid 1px #5eb61c;
+  background: url(icon_good.png) no-repeat 10px center,  -webkit-linear-gradient(#44900b,#357406);
+  background: url(icon_good.png) no-repeat 10px center,  -moz-linear-gradient(#44900b,#357406);
+}
+
+.BuddyBaller {
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
