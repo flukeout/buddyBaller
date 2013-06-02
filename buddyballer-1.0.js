@@ -47,7 +47,7 @@
           
           var allNames = {
             boy : {
-              good : ["wizad",
+              good : ["wizard",
                       "muffin",
                       "champ",
                       "sport",
